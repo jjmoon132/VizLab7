@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Introduction to JavaScript</title>
+
+    <!-- You CSS rules-->
+    <link rel="stylesheet" href="style.css" /> 
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.1.1/d3.min.js"></script>
+
+    <script src="https://unpkg.com/topojson@3"></script>
+    
+    <!-- Your code -->
+    <script defer src="script.js"></script>
+    
+  </head>
+<body>
+
+  <h1>Airport Connections</h1>
+
+  <form>
+  <input type="radio" id="force" value="force" name="layout">
+  <label for="force">Force</label>
+  <input type="radio"  id="map" value="map" name="layout">
+  <label for="map">Map</label>
+  </form>
+
+  <div class="chart">
+      <!-- You will append a SVG here-->
+  </div>
+</body>
